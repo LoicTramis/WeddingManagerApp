@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WeddingManager",
-    "slug": "WeddingManager",
+    "slug": "weddingguests",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.entropyball.weddingguests"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68a3405c-c87f-42ba-992f-72b2dba3d6b9"
+      }
+    },
+    "owner": "entropyball"
   }
 }
